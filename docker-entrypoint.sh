@@ -1,4 +1,5 @@
 #!/bin/bash
+
 test ! -s $FITNESSE_DATA/plugins.properties && cp $FITNESSE_DEFAULT/plugins.properties $FITNESSE_DATA
 test ! -s $FITNESSE_DATA/config.xml && cp $FITNESSE_DEFAULT/config.xml $FITNESSE_DATA
 test ! -s $FITNESSE_DATA/netcore-fixtures && cp -R $FITNESSE_DEFAULT/netcore-fixtures $FITNESSE_DATA
