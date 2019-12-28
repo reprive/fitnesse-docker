@@ -1,4 +1,4 @@
-!define COMMAND_PATTERN {%m ${FITSHARP_HOME}/Runner.dll -c config.xml}
+!define COMMAND_PATTERN {%m ${FITSHARP_APP}/Runner.dll -c config.xml}
 !define TEST_RUNNER {dotnet}
 
 !contents
